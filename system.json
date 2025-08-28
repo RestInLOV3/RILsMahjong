@@ -2,7 +2,7 @@
   "id": "rils-mahjong",
   "title": "RILs Mahjong",
   "description": "캐입 마작을 치고 말겠다는 마음가짐으로",
-  "version": "1.0.0",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": 13,
     "verified": 13
@@ -35,7 +35,7 @@
         }
     }]
     },
-  "url": "https://github.com/foundryvtt/RILs-Mahjong/",
-  "manifest": "https://github.com/foundryvtt/RILs-Mahjong/system.json",
-  "download": "https://github.com/foundryvtt/RILs-Mahjong/archive.zip"
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#"
 }
