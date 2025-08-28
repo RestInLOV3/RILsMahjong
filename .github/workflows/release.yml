@@ -56,6 +56,6 @@ jobs:
           draft: ${{ github.event.release.unpublished }}
           prerelease: ${{ github.event.release.prerelease }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: "./system.json, ./system.zip"
+          artifacts: "./system.json, ./rils-mahjong.zip"
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}
