@@ -11,6 +11,7 @@
     "name": "RestInLOV3"
   }],
   "esmodules": ["rils-mahjong.mjs"],
+  "scripts": [],
   "styles": ["styles/styles.css"],
   "packs": [],
   "languages": [],
@@ -26,15 +27,7 @@
     }
   },
   "socket": true,
-  "relationships": {
-    "requires": [{
-        "id": "complete-card-management",
-        "manifest": "https://github.com/MetaMorphic-Digital/complete-card-management/releases/latest/download/module.json",
-        "compatibility": {
-          "verified": "2.1.0"
-        }
-    }]
-    },
+  "relationships": {},
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#"

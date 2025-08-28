@@ -39,3 +39,5 @@ class CharacterData extends foundry.abstract.TypeDataModel {
     super.prepareData();
   }
 }
+
+export { CharacterData };

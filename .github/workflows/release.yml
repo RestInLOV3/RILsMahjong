@@ -46,6 +46,7 @@ jobs:
             styles/ \
             packs/ \
             lang/ \
+            assets/ \
             rils-mahjong.mjs
 
       - name: Update Release With Files
