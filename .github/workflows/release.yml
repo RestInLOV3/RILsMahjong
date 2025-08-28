@@ -46,7 +46,7 @@ jobs:
             styles/ \
             packs/ \
             lang/ \
-            RILs-Mahjong.mjs
+            rils-mahjong.mjs
 
       - name: Update Release With Files
         uses: ncipollo/release-action@v1
