@@ -3,7 +3,7 @@ name: Create System Files For GitHub Release
 env:
   project_url: "https://github.com/${{ github.repository }}"
   latest_manifest_url: "https://github.com/${{ github.repository }}/releases/latest/download/system.json"
-  release_system_url: "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/system.zip"
+  release_system_url: "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/rils-mahjong.zip"
 
 on:
   release:
@@ -38,7 +38,7 @@ jobs:
         run: |
           zip \
             --recurse-paths \
-            ./system.zip \
+            ./rils-mahjong.zip \
             system.json \
             README.md \
             LICENSE \
