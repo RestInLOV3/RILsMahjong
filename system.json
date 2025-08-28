@@ -1,0 +1,41 @@
+{
+  "id": "rils-mahjong",
+  "title": "RILs Mahjong",
+  "description": "캐입 마작을 치고 말겠다는 마음가짐으로",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 13,
+    "verified": 13
+  },
+  "authors": [{
+    "name": "RestInLOV3"
+  }],
+  "esmodules": ["rils-mahjong.mjs"],
+  "styles": ["styles/styles.css"],
+  "packs": [],
+  "languages": [],
+  "documentTypes": {
+    "Actor": {
+      "player": {
+        "htmlFields": ["biography"],
+        "filePathFields": {
+          "crest": ["IMAGE"]
+        }
+      },
+      "observer": {}
+    }
+  },
+  "socket": true,
+  "relationships": {
+    "requires": [{
+        "id": "complete-card-management",
+        "manifest": "https://github.com/MetaMorphic-Digital/complete-card-management/releases/latest/download/module.json",
+        "compatibility": {
+          "verified": "2.1.0"
+        }
+    }]
+    },
+  "url": "https://github.com/foundryvtt/RILs-Mahjong/",
+  "manifest": "https://github.com/foundryvtt/RILs-Mahjong/system.json",
+  "download": "https://github.com/foundryvtt/RILs-Mahjong/archive.zip"
+}
